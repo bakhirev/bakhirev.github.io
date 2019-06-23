@@ -1,0 +1,75 @@
+.damage_screen_a,
+.damage_screen_b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+    opacity: 0;
+
+    background: radial-gradient(ellipse at center,  rgba(255,53,53,0.65) 0%,rgba(255,53,53,0.21) 68%,rgba(0,0,0,0) 100%);
+}
+
+.damage_screen_a {
+    -webkit-animation: damage_screen_a 0.5s ease 0s 1 normal forwards running;
+    animation: damage_screen_a 0.5s ease 0s 1 normal forwards running;
+}
+
+.damage_screen_b {
+    -webkit-animation: damage_screen_b 0.5s ease 0s 1 normal forwards running;
+    animation: damage_screen_b 0.5s ease 0s 1 normal forwards running;
+}
+
+@-webkit-keyframes damage_screen_a {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes damage_screen_a {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes damage_screen_b {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes damage_screen_b {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

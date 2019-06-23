@@ -1,0 +1,30 @@
+.pass__container {
+    position: absolute;
+    top: 12em;
+    left: 1em;
+
+    display: flex;
+    width: 10em;
+    height: 69px;
+
+    justify-content: space-between;
+    text-align: justify;
+    text-align-last: justify;
+
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pass__key {
+    display: inline-block;
+    height: 100%;
+    width: 27%;
+    padding: 0;
+
+    text-align: center;
+    box-sizing: border-box;
+
+    border-radius: .5em;
+    background-color: rgba(235, 82, 18, 0.8);
+}

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: "Neon";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Monoton"), local("Monoton-Regular"), url("./module/fonts/Neon.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Number";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./module/fonts/Number.ttf");
+}
+
+.hidden {
+    display: none;
+}
+
+.user {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+}
+
+.timer {
+    font-family: "Number", Verdana;
+    font-size: 3em;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+}
+
+.health {
+    font-family: "Number", Verdana;
+    font-size: 3em;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    background-color: rgba(0, 140, 140, 0.5);
+    padding: .25em;
+    border-radius: 0.5em;
+}
+
+.game_ui__bg_a {
+    position: absolute;
+    bottom:  2em;
+    left: 1em;
+    height: 90%;
+    z-index: 0;
+}
+
+.game_ui__bg_b {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    height: 30%;
+    z-index: 0;
+}

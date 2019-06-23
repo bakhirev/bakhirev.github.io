@@ -1,0 +1,60 @@
+.splash_screen__table {
+    font-size: 6em;
+}
+
+.splash_screen__text_normal,
+.splash_screen__text_dimly,
+.splash_screen__text_flicker {
+    font-family: "Neon";
+    text-transform: uppercase;
+    text-shadow: 0 0 80px red, 0 0 30px firebrick, 0 0 6px darkred;
+    color: red;
+    cursor: default;
+}
+
+.splash_screen__text_dimly {
+    opacity: 0.3;
+    text-shadow: none;
+}
+
+.splash_screen__text_flicker {
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: 'flicker';
+    -webkit-animation-name: 'flicker';
+}
+
+@media screen and (max-width: 600px) {
+    .splash_screen__table {
+        font-family: "Neon";
+        font-size: 4.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .splash_screen__table {
+        font-family: "Neon";
+        font-size: 3.5em;
+    }
+}
+
+@-webkit-keyframes 'flicker' {
+    from {
+        opacity: 0.3;
+        text-shadow: none;
+    }
+    19%, 32%, 43%, 75%, 81% {
+        opacity: 1;
+        text-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px DarkRed;
+    }
+    20%, 33%, 44%, 76%, 82% {
+        opacity: 0.3;
+        text-shadow: none;
+    }
+    to {
+        opacity: 1;
+        text-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px DarkRed;
+    }
+}

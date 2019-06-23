@@ -1,0 +1,128 @@
+.game_ui__container,
+.game_ui__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    user-select: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-color: black;
+}
+
+.game_ui__container {
+    background-color: transparent;
+}
+
+.game_ui__content {
+    position: relative;
+}
+
+.game_ui__button,
+.game_ui__sub_button {
+    display: block;
+    width: 17em;
+    padding: .6em;
+    margin: 0 auto .5em auto;
+    text-align: left;
+
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.game_ui__sub_button {
+    display: inline-block;
+    width: 12em;
+    margin: 0 .5em .5em .5em;
+}
+
+.game_ui__button:hover,
+.game_ui__sub_button:hover {
+    background-color: rgba(170, 0, 0, 0.8);
+}
+
+.game_ui__button_text {
+    font-family: "Number", Verdana, serif;
+    font-size: 2em;
+    font-weight: 100;
+
+    letter-spacing: 3px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+
+    color: white;
+}
+
+.game_ui__button_icon {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    margin: 0;
+    margin-right: 1em;
+
+    vertical-align: top;
+    box-sizing: border-box;
+    border: none;
+
+    background-color: transparent;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.game_ui__description {
+    font-family: "Number", Verdana, serif;
+    font-size: 2em;
+    font-weight: 100;
+
+    width: 70%;
+    padding: 1em 0;
+    margin: 1em auto;
+
+    text-decoration: none;
+    white-space: normal;
+    letter-spacing: 3px;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.game_ui__range {
+    display: block;
+    width: 20em;
+    margin: 0 auto .5em auto;
+
+    overflow: hidden;
+    -webkit-appearance: none;
+
+    background-color: #9a905d;
+}
+
+.game_ui__range::-webkit-slider-runnable-track {
+    height: 2.5em;
+    -webkit-appearance: none;
+}
+
+.game_ui__range::-webkit-slider-thumb {
+    width: 1em;
+    -webkit-appearance: none;
+    height: 2.5em;
+    cursor: ew-resize;
+    background: #434343;
+    box-shadow: -80px 0 0 80px #43e5f7;
+}
