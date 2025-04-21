@@ -21,7 +21,7 @@ module.exports = function (json, meta) {
         ${Tariffs(json, meta)}
         ${Banner(json, meta)}
         ${Footer()}
-        ${Analytics()}
+        ${Analytics(meta)}
       </body>
     </html>`;
 }

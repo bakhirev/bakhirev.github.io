@@ -63,7 +63,7 @@ function getSEO() {
 }
 
 function removeQuotationMarks(text) {
-  return text.slice(1, text.length - 1).trim();
+  return text.slice(1, text.length - 2).trim();
 }
 
 function getImageJson(text) {

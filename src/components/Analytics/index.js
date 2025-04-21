@@ -1,4 +1,5 @@
-module.exports = function() {
+module.exports = function(meta) {
+  if (meta.template !== 'main') return '';
   return `
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >

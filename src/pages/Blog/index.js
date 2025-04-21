@@ -28,7 +28,7 @@ module.exports = function (json, meta) {
           ${recommendations}
         </section>
         ${Footer(meta, '.')}
-        ${Analytics()}
+        ${Analytics(meta)}
       </body>
     </html>`;
 }

@@ -37,5 +37,3 @@ module.exports = function (json, meta) {
       </body>
     </html>`;
 }
-
-// ${Analytics()}
