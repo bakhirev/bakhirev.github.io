@@ -8,7 +8,7 @@
 }
 
 .banner_short {
-    padding-bottom: 38px;
+    padding: 15px 0 38px;
 }
 
 @media (max-width: 940px) {

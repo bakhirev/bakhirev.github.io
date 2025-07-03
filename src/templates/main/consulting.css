@@ -5,6 +5,7 @@
     margin: 0 auto 128px auto;
     padding: 135px 0 100px;
     text-align: center;
+    overflow: hidden;
 }
 
 .consulting_bg {
