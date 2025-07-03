@@ -8,6 +8,9 @@
 @import "./main.css";
 @import "./tariff.css";
 @import "./banner.css";
+@import "./consulting.css";
+@import "./console.css";
+@import "./rectangle.css";
 @import "./uikit.css";
 
 body {

@@ -5,10 +5,13 @@ const Tariffs = require('./components/Tariffs');
 const Banner = require('./components/Banner');
 const Footer = require('./components/Footer');
 const Analytics = require("../../components/Analytics");
+const Console = require("./components/Console");
+const Consultation = require("./components/Consultation");
 const { updateLanguage } = require("../../helpers/translations");
 
 module.exports = function (json, meta) {
   updateLanguage(meta.language);
+  const t = (id) => json[id];
 
   return `
     <!DOCTYPE html>
@@ -16,10 +19,12 @@ module.exports = function (json, meta) {
       ${Head(meta)}
       <body>
         <div class="background"></div>
-        ${Header(json, meta)}
-        ${Main(json)}
-        ${Tariffs(json, meta)}
-        ${Banner(json, meta)}
+        ${Header(t, meta)}
+        ${Main(t)}
+        ${Consultation(t)}
+        ${Console(t)}
+        ${Tariffs(t, json, meta)}
+        ${Banner(t, meta)}
         ${Footer()}
         ${Analytics(meta)}
       </body>

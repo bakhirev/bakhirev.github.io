@@ -1,0 +1,19 @@
+.rectangle {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.rectangle_top_left,
+.rectangle_top_right {
+    margin-top: 50px;
+}
+
+.rectangle_top_right {
+    transform: rotateY(180deg);
+}
+
+.rectangle_bottom_right {
+    margin-bottom: 50px;
+    transform: rotateX(180deg) rotateY(180deg);
+}

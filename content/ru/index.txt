@@ -3,12 +3,12 @@
 § meta.title: Assayo - визуализация и анализ git log
 § meta.description.short: Посмотри историю разработки на основании информации из git
 § meta.description.long: Проверь работу команды разработки: табель работ по дням, фактический график и состав релизов, время поставки, состав команды и т.п.
-§ meta.keywords: git, log, stat, statistic, repository, commits, bitbucket, gitlab, jira, analytics, audit, it-audit, гит, лог, репозиторий, статистика, анализ, код, аудит
+§ meta.keywords: git, log, stat, statistic, repository, commits, bitbucket, gitlab, tool, jira, analytics, audit, it-audit, гит, лог, репозиторий, статистика, анализ, код, аудит
 § header.demo: Демо
 § header.blog: Блог
 § header.contact: Контакты
-§ main.title: Визуализация и анализ GIT логов
-§ main.description: Инсайдерская информация из git log для повышения производительности команды разработчиков: табель работ по&nbsp;дням, фактический график и состав релизов, время поставки&nbsp;и&nbsp;т.п.
+§ main.title: Анализ статистики коммитов
+§ main.description: Инсайдерская информация из git log для ретроспективы<br/>и повышения производительности команды разработчиков.<br/>Быстро и просто. Никаких регистраций и интеграций.
 § main.demo: Онлайн версия
 § main.demoWithData: Посмотреть демо с данными
 § tariff: Купить лицензию
@@ -28,8 +28,13 @@
 обработка группы репозиториев
 витрина отчётов по орг. структуре
 брендирование интерфейса
-§ banner.title: Проводите IT-Аудит?
-§ banner.description1: Предложите клиентам отчёты по коду с готовой аналитикой
-§ banner.description2: (мы брендируем их в ваш фирменный стиль)
+§ banner.title: Пишите свой дашборд?
+§ banner.description: Assayo легко интегрировать и брендировать<br>Полностью Российское ПО
 § banner.buy: Оставить заявку
-§ banner.example: Скачать пример
+§ banner.example: Посмотреть примеры
+§ console.title: Генерируйте отчёты локально
+§ console.description: Установите Docker образ или модули на JS, PHP, Python, Ruby, Go
+§ consultation.title: Достигайте своих целей<br>быстрее с опытным экспертом
+§ consultation.description: Персональные советы по анализу данных, метрикам и дашбордам.
+§ consultation.youtube: Посмотреть видео
+§ consultation.form: Записаться на консультацию

@@ -14,5 +14,5 @@
 § footer.video.title: Video:
 § footer.languages: Languages:
 § footer.install.title: Installation:
-§ footer.articles.title: About us:
+§ footer.articles.title: About:
 § footer.right: © All rights reserved

@@ -7,8 +7,8 @@
 § header.demo: Demo
 § header.blog: Blog
 § header.contact: Kontakt
-§ main.title: Visualisierung und analyse von GIT log
-§ main.description: Insiderinformationen aus dem git log zur steigerung der produktivität des Entwicklerteams: der arbeitsplan nach tag, der tatsächliche zeitplan und die zusammensetzung der releases, die lieferzeit usw.
+§ main.title: Analysieren von commit statistiken
+§ main.description: Insiderinformationen aus dem git log zur steigerung der produktivität des entwicklerteams.<br/>Schnell und einfach. Keine anmeldungen und Integration en.
 § main.demo: Onlineversion
 § main.demoWithData: Demo mit den testdaten
 § tariff: Lizenz kaufen
@@ -29,7 +29,12 @@ verarbeitung einer gruppe von repositories
 präsentation von berichten nach organisationsstruktur
 branding der schnittstelle
 § banner.title: Führen sie ein IT-audit durch?
-§ banner.description1: Bieten sie kunden berichte über git log mit analysen an
-§ banner.description2: (wir brandmarken diese berichte in ihrer corporate identity)
+§ banner.description: Bieten sie kunden berichte über git log mit analysen an
 § banner.buy: Lizenz anfordern
 § banner.example: Beispiel herunterladen
+§ console.title: Erstellen wir einen lokalen HTML-bericht.
+§ console.description: Sie können das Docker image oder ein JS, PHP, Python, Ruby oder Go paket installieren.
+§ consultation.title: Erreichen sie ihre ziele schneller<br/>mit einem erfahrenen mentor.
+§ consultation.description: Persönliche Beratung zu Datenanalyse, Metriken und Dashboards.
+§ consultation.youtube: Video ansehen.
+§ consultation.form: Termin vereinbaren.

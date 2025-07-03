@@ -3,11 +3,11 @@
 § meta.title: Assayo - visualisation et analyse du git log
 § meta.description.short: Analyses basées sur Git commit pour augmenter la productivité de l'équipe de développeurs.
 § meta.description.long: Informations privilégiées du git log, vous permettant de prendre des décisions en fonction de l'image complète. Vérifiez le travail de l'équipe de développement: rapport de travail par jour, calendrier réel et composition des versions, délai de livraison, composition de l'équipe, etc.
-§ meta.keywords: git, log, stat, statistique, référentiel, validations, bitbucket, gitlab, jira, analytique,audit, informatique-audit, git, log, référentiel, statistiques, analyse, code, audit
+§ meta.keywords: git, log, stat, statistique, référentiel, validations, bitbucket, gitlab, tool, jira, analytique,audit, informatique-audit, git, log, référentiel, statistiques, analyse, code, audit
 § header.demo: Démo
 § header.blog: Blogue
 § header.contact: Coordonnées
-§ main.title: Visualisation et analyse du GIT log
+§ main.title: Analyse des statistiques de validation
 § main.description: Informations privilégiées de git log pour augmenter la productivité de l'équipe de développeurs: le calendrier de travail par jour, le calendrier réel et la composition des versions, le délai de livraison, etc.
 § main.demo: Version en ligne
 § main.demoWithData: Démo avec les données de test
@@ -29,7 +29,12 @@ traitement d'un groupe de référentiels
 présentation des rapports par la structure organisationnelle
 image de marque de l'interface
 § banner.title: Effectuez-vous un audit informatique?
-§ banner.description1: Offrez aux clients des rapports sur git log avec analytics
-§ banner.description2: (nous faisons ces rapports dans votre identité d'entreprise)
+§ banner.description: Offrez aux clients des rapports sur git log avec analytics
 § banner.buy: Demande de licence
 § banner.example: Télécharger un exemple
+§ console.title: Générer des rapports localement
+§ console.description: Installer des Docker image ou des modules JS, PHP, Python, Ruby, Go
+§ consultation.title: Atteignez vos objectifs<br>plus rapidement avec un expert expérimenté
+§ consultation.description: Conseils personnalisés sur l'analyse des données, les métriques et les tableaux de bord.
+§ consultation.youtube: Regarder la vidéo
+§ consultation.form: Organiser une consultation

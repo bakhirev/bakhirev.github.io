@@ -8,7 +8,7 @@
 § header.blog: 블로그
 § header.contact: 연락처
 § main.title: GIT log 의 시각화 및 분석
-§ main.description: 힘내 로그에서 내부자 정보는 개발자 팀의 생산성을 향상:하루 작업 일정,실제 일정 및 릴리스의 구성,배달 시간 등
+§ main.description: 힘내 로그에서 내부자 정보는 개발자 팀의 생산성을 향상.<br/>빠르고 간편합니다. 등록이나 연동이 필요 없습니다.
 § main.demo: 온라인 버전
 § main.demoWithData: 테스트 데이터 데모
 § tariff: 라이센스 구매
@@ -29,7 +29,12 @@
 조직 구조에 의한 보고서 쇼케이스
 인터페이스 브랜딩
 § banner.title: 당신은 그것을 감사를 실시하고 있습니까?
-§ banner.description1: 분석을 통해 고객에게 자식 로그에 대한 보고서 제공
-§ banner.description2: (우리는 당신의 기업 정체성에이 보고서를 브랜드)
+§ banner.description: 분석을 통해 고객에게 자식 로그에 대한 보고서 제공
 § banner.buy: 라이센스 요청
 § banner.example: 예제 다운로드
+§ console.title: 로컬로 보고서 생성
+§ console.description: Docker 이미지나 JS, PHP, Python, Ruby, Go 패키지를 설치할 수 있습니다.
+§ consultation.title: 전문가 멘토와 함께 더 빠르게 목표를 달성하세요
+§ consultation.description: 데이터 분석, 지표, 대시보드에 대한 개인 상담.
+§ consultation.youtube: 영상 보기
+§ consultation.form: 상담을 신청하세요

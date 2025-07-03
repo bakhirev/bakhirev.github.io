@@ -3,7 +3,7 @@
 § meta.title: Assayo - gitログの可視化と分析
 § meta.description.short: Gitコミットベースの分析により、開発者チームの生産性が向上します。
 § meta.description.long: Git logからのインサイダー情報により、全体像に基づいて意思決定を行うことができます。 開発チームの作業を確認してください：日ごとの作業レポート、実際のスケジュールとリリースの構成、納期、チーム構成など。
-§ meta.keywords: git, log, stat, statistical, repository, commits, bitbucket, gitlab, jira, analytics, audit, it-audit, git, log, repository, statistics, analysis, code, audit
+§ meta.keywords: git, log, stat, statistical, repository, commits, bitbucket, gitlab, tool, jira, analytics, audit, it-audit, git, log, repository, statistics, analysis, code, audit
 § header.demo: デモ
 § header.blog: ブログ
 § header.contact: 連絡先
@@ -29,7 +29,12 @@
 組織構造別報告書の紹介
 インターフェイスのブランディング
 § banner.title: IT監査を実施していますか？
-§ banner.description1: 既製の分析で顧客にコードレポートを提供する
-§ banner.description2: （私たちはあなたのコーポレートアイデンティティでこのレポートをブランド化）
+§ banner.description: 既製の分析で顧客にコードレポートを提供する
 § banner.buy: ライセンスを要求する
 § banner.example: 例をダウンロードする
+§ console.title: ローカルでレポートを生成する
+§ console.description: JS、PHP、Python、Ruby、Go に Docker イメージまたはモジュールをインストールする
+§ consultation.title: 経験豊富な専門家と一緒に目標をより早く達成しましょう
+§ consultation.description: データ分析、メトリック、ダッシュボードに関するパーソナライズされたアドバイス。
+§ consultation.youtube: ビデオを見る
+§ consultation.form: 相談に申し込む

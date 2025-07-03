@@ -3,12 +3,12 @@
 § meta.title: Assayo-git log的可视化与分析
 § meta.description.short: 基于Git提交的分析，以提高开发人员团队的工作效率。
 § meta.description.long: 来自git log的内幕信息，允许您根据全貌做出决策。 检查开发团队的工作：按天报告工作，发布的实际时间表和组成，交付时间，团队组成等。
-§ meta.keywords: git,log,stat,statistical,repository,commits,bitbucket,gitlab,jira,analytics,audit,it-audit,git,log,repository,statistics,analysis,code,audit
+§ meta.keywords: git, log, stat, statistical, repository, commits, bitbucket, gitlab, jira, analytics, audit, it-audit, git, log, repository, statistics, analysis, code, audit
 § header.demo: 示范
 § header.blog: 博客
 § header.contact: 联络人
 § main.title: Git log的可视化与分析
-§ main.description: 来自git log的内幕信息，以提高开发人员团队的工作效率：每天的工作日程，发布的实际时间表和组成，交付时间等。
+§ main.description: git log 的内部信息，用于回顾并提升开发团队的生产力。<br/>快速简便。无需注册或集成。
 § main.demo: 网上版本
 § main.demoWithData: 测试数据演示
 § tariff: 购买许可证
@@ -29,7 +29,12 @@
 按组织结构展示报告
 界面的品牌化
 § banner.title: 您是否正在进行IT审计？
-§ banner.description1: 为客户提供有关git log的报告
-§ banner.description2: （我们在您的企业标识中标记此报告）
+§ banner.description: 为客户提供有关git log的报告
 § banner.buy: 申请许可证
 § banner.example: 下载示例
+§ console.title: 生成本地 HTML 报告
+§ console.description: 您可以安装 Docker 镜像或 JS、PHP、Python、Ruby、Go 软件包
+§ consultation.title: 下更快实现您的目标<br>在专家导师的指导
+§ consultation.description: 关于数据分析、指标和仪表板的个人咨询。
+§ consultation.youtube: 观看视频
+§ consultation.form: 写信给我进行咨询

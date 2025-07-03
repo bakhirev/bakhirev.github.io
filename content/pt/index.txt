@@ -7,8 +7,8 @@
 § header.demo: Demonstração
 § header.blog: Blogue
 § header.contact: Contatos
-§ main.title: Visualização e análise do GIT log
-§ main.description: Informações privilegiadas do git log para aumentar a produtividade da equipa de developers: o horário de trabalho por dia, o horário real e a composição dos lançamentos, o prazo de entrega, etc.
+§ main.title: Análise de estatísticas de commits
+§ main.description: Informações privilegiadas do git log para aumentar a produtividade da equipa de developers.<br/>Rápido e fácil. Sem cadastros ou integrações.
 § main.demo: Versão on-line
 § main.demoWithData: Demonstração com os dados de ensaio
 § tariff: Compre uma licença
@@ -29,7 +29,12 @@ processamento de um grupo de repositórios
 montra de relatórios da estrutura organizacional
 marca da interface
 § banner.title: Está a conduzir uma auditoria de TI?
-§ banner.description1: Ofereça aos clientes relatórios sobre git log com análises
-§ banner.description2: (marcamos estes relatórios na sua identidade corporativa)
+§ banner.description: Ofereça aos clientes relatórios sobre git log com análises
 § banner.buy: Solicitar licença
 § banner.example: Descarregue um exemplo
+§ console.title: Vamos gerar um relatório HTML local
+§ console.description: Você pode instalar a imagem Docker ou o pacote JS, PHP, Python, Ruby, Go
+§ consultation.title: Alcance seus objetivos mais rápido<br/>com mentor especialista
+§ consultation.description: Consultas pessoais sobre análise de dados, métricas e painéis.
+§ consultation.youtube: Assista ao vídeo
+§ consultation.form: Marque uma consulta

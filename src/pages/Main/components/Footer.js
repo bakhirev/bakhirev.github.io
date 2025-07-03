@@ -20,13 +20,14 @@ module.exports = function() {
       { title: 'PHP', url: LINKS.COMPOSER },
       { title: 'Python', url: LINKS.PIP },
       { title: 'Ruby', url: LINKS.GEM },
+      { title: 'Goland', url: LINKS.GO },
     ])}
 
     ${Column(t('footer.articles.title'), [
-      { title: 'Reddit', url: LINKS.REDDIT },
-      { title: 'VC', url: LINKS.VC },
-      { title: 'Habr', url: LINKS.HABR },
       { title: 'YouTube', url: LINKS.YOUTUBE },
+      { title: 'Habr', url: LINKS.HABR },
+      { title: 'VC', url: LINKS.VC },
+      { title: 'Reddit', url: LINKS.REDDIT },
     ])}
 
     ${Column(t('footer.languages'), items)}

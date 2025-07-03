@@ -1,0 +1,79 @@
+.console_section {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: var(--space-xxl) 0 48px;
+    background-color: #3758F9;
+    text-align: center;
+}
+
+.console {
+    position: relative;
+    display: block;
+    width: 90%;
+    max-width: 620px;
+    margin: var(--space-l) auto 0;
+    box-sizing: border-box;
+}
+
+.console_header,
+.console_body {
+    font-weight: 100;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    line-height: 1.3;
+    text-align: left;
+}
+
+.console_header {
+    display: block;
+    height: 32px;
+    padding: 0 var(--space-s);
+    line-height: 20px;
+    color: #8F8F8F;
+    white-space: nowrap;
+    text-align: left;
+    border: 1px solid #D4D4D4;
+    border-bottom: none;
+    cursor: default;
+    background-color: #F2F2F2;
+    border-radius: var(--space-xxs) var(--space-xxs) 0 0;
+}
+
+.console_header_icon {
+    display: inline-block;
+    width: var(--space-l);
+    height: var(--space-l);
+    margin: var(--space-s) var(--space-s) 0 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #B5B5B5;
+    background: linear-gradient(90deg, #D7D8DB 0%, #B5B5B5 100%);
+}
+
+.console_body {
+    padding: var(--space-l);
+    line-height: 1.3;
+    white-space: normal;
+    background: var(--color-white);
+    border-radius: 0 0 var(--space-xxs) var(--space-xxs);
+}
+
+.console_comment,
+.console_command {
+    font-family: Arial, Verdana, sans-serif;
+    display: block;
+    line-height: 20px;
+    text-align: left;
+    color: var(--color-black);
+}
+
+.console_comment {
+    color: #8C8C8C;
+}
+
+.console_command + .console_comment {
+    margin-top: var(--space-l);
+}

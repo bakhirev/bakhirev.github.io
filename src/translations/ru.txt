@@ -14,5 +14,5 @@
 § footer.video.title: Видео:
 § footer.languages: Языки:
 § footer.install.title: Установка:
-§ footer.articles.title: Статьи о нас:
+§ footer.articles.title: Статьи:
 § footer.right: © Все права защищены

@@ -1,21 +1,14 @@
 const { LINKS } = require('../../../helpers/constants');
+const { Button, Title, Description } = require('./UiKit');
 
-module.exports = function(json) {
+module.exports = function(t) {
   return `
     <main class="main">
-      <h1 class="title">
-        ${json["main.title"]}
-      </h1>
-      <p class="text">
-        ${json["main.description"]}
-      </p>
+      ${Title(t("main.title"))}
+      ${Description(t("main.description"))}
       <nav class="main_nav">
-        <a href="/demo/" role="button" class="button">
-          ${json["main.demo"]}
-        </a>
-        <a href="${LINKS.DEMO}" role="button" class="button button_blue">
-          ${json["main.demoWithData"]}
-        </a>
+        ${Button(t("main.demo"), "/demo/")}
+        ${Button(t("main.demoWithData"), LINKS.DEMO, "button_blue")}
       </nav>
       <video width="90%" preload autoplay muted loop="loop" class="main_screenshot">
         <source src="../assets/images/index.webm" type="video/webm">

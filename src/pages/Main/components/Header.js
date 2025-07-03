@@ -1,29 +1,22 @@
 const { LINKS } = require('../../../helpers/constants');
-const { t } = require('../../../helpers/translations');
 const HeaderSelect = require('./HeaderSelect');
 
-function BlogLink(json) {
+function Link(title, url, type) {
   return `
-    <a href="./blog/" class="header_link">
-      ${json["header.blog"]}
+    <a href="${url}" class="header_link" target="${type || ''}">
+      ${title}
     </a>`;
 }
 
-module.exports = function(json, meta) {
+module.exports = function(t, meta) {
   const { language } = meta;
   return `
     <header class="header">
       <img src="../assets/logo.svg" class="header_logo" alt="${t('header.logo')}"/>
-      <a href="${LINKS.DEMO}" class="header_link">
-        ${json["header.demo"]}
-      </a>
-      <a href="${LINKS.GITHUB}" target="_blank" class="header_link">
-        GitHub
-      </a>
-      <a href="${LINKS.DOCKER}"  target="_blank" class="header_link">
-        Docker
-      </a>
-      ${language === 'ru' ? BlogLink(json, language) : ''}
+      ${Link(t("header.demo"), LINKS.DEMO)}
+      ${Link("GitHub", LINKS.GITHUB, "_blank")}
+      ${Link("Docker", LINKS.DOCKER, "_blank")}
+      ${language === 'ru' ? Link(t("header.blog"), "./blog/") : ''}
       ${HeaderSelect(language)}
     </header>`;
 }

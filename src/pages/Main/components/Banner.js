@@ -1,21 +1,19 @@
+const { Button, Gap, Title, Description, Rectangle } = require('./UiKit');
 const { LINKS } = require('../../../helpers/constants');
 
-module.exports = function(json, meta) {
-  const link = meta.language === 'ru' ? LINKS.FORM.RU : LINKS.FORM.EN;
+module.exports = function(t, meta) {
+  const { language } = meta;
+  const className = language === 'ru'
+    ? 'banner banner_short'
+    : 'banner';
+
   return `
-    <section class="banner">
-      <h1 class="title">
-        ${json["banner.title"]}
-      </h1>
-      <p class="text">
-        ${json["banner.description1"]}
-        <br/>
-        ${json["banner.description2"]}
-      </p>
-      <br />
-      <br />
-      <a href="${link}" target="_blank" rel="noreferrer" role="button" class="button button_green">
-        ${json["banner.buy"]}
-      </a>
-    </section>`;
+    ${Rectangle('top_right')}
+    <section class="${className}">
+      ${Title(t("banner.title"))}
+      ${Description(t("banner.description"))}
+      ${language === 'ru' ? Gap(2) : ''}
+      ${language === 'ru' ? Button(t("banner.example"), LINKS.THEMES, "button_green") : ''}
+    </section>
+`;
 }
