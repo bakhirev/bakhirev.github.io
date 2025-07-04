@@ -29,7 +29,7 @@ function Gap(count) {
 
 function Rectangle(className) {
   const customClass = className ? `rectangle_${className}` : '';
-  return `<div class="rectangle ${customClass}" style="background-image: url(../assets/images/main/rectangle.svg)"></div>`;
+  return `<img class="rectangle ${customClass}" src="../assets/images/main/rectangle.svg" />`;
 }
 
 module.exports = { Button, Title, Description, Gap, Rectangle };
