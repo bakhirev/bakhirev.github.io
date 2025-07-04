@@ -56,13 +56,16 @@
     color: var(--color-white);
     background-color: #4F6CFA;
 }
+
 .button_blue:hover {
     background-color: #5874FA;
 }
+
 .button_green {
     color: var(--color-white);
     background-color: #38D27B;
 }
+
 .button_green:hover {
     background-color: #2FC570;
 }
