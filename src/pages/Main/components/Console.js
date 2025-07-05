@@ -25,13 +25,17 @@ module.exports = function(t) {
           ${Command("npx assayo")}
           ${Comment("Python")}
           ${Command("pipx install assayo")}
+          ${Command("assayo")}
           ${Comment("Ruby")}
           ${Command("gem install assayo")}
+          ${Command("assayo")}
           ${Comment("Go")}
           ${Command("go get github.com/bakhirev/assayo")}
           ${Command("go install github.com/bakhirev/assayo")}
+          ${Command("assayo")}
           ${Comment("PHP")}
           ${Command("composer require bakhirev/assayo")}
+          ${Command("vendor/bin/assayo")}
           ${Comment("Docker")}
           ${Command("docker pull bakhirev/assayo")}
         </div>
