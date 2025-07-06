@@ -12337,7 +12337,9 @@ R(f`2021-02-09T16:08:15+03:00>Albert Einstein>instein@emap.de>Initialize project
 
 2021-06-02T18:29:28+05:00>Wilhelm Röntgen [bot]>rontgen@x-ray.com>Fix docker registry url
 :100644 100644 8991ad4ed 965c3990d M	Dockerfile
+:100644 100644 89915d4ed 965c3990d M	postcss.config.js
 2	2	Dockerfile
+2	2	postcss.config.js
 
 2021-06-02T16:49:10+03:00>Leo Landau>landau@cccp.ru>Merge pull request #170 in vendor/vendor-frontend from fix-build to master
 2021-06-02T18:51:26+03:00>Leo Landau>landau@cccp.ru>Merge pull request #169 in vendor/vendor-frontend from feature/TASK-234-Add-notifications-page to master
