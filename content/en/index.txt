@@ -7,8 +7,8 @@
 § header.demo: Demo
 § header.blog: Blog
 § header.contact: Contacts
-§ main.title: Analysis of commit statistics
-§ main.description: Insider Information from git log for a retrospective<br/>and boost developer team productivity.<br/>Quick and easy. No registrations or integrations.
+§ main.title: Service for analyzing commit statistics
+§ main.description: Insider Information from git log for a retrospective<br/>and boost developer team productivity.<br/>Quick and easy. No registrations or integrations.<br/>This helps you compare your expectations with the actual situation and identify zones with problems.
 § main.demo: Online version
 § main.demoWithData: Demo with the test data
 § tariff: Buy a license
@@ -34,7 +34,7 @@ branding of the interface
 § banner.example: Download an example
 § console.title: Let`s generate local HTML-report
 § console.description: You can install the Docker image or  JS, PHP, Python, Ruby, Go package
-§ consultation.title: Reach your goals faster<br/>with expert mentor
-§ consultation.description: Personal consultations on data analysis, metrics, and dashboards.
+§ consultation.title: Are you write dashboard?
+§ consultation.description: Sign up for a personalized consultation on metrics.
 § consultation.youtube: Watch the video
 § consultation.form: Make an appointment

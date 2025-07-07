@@ -54,8 +54,8 @@ module.exports = function (meta) {
       <link rel="canonical" href="${link}">
       ${meta.template === 'main' ? alternate : ''}
 
-      <link rel="icon" href="${DOMAIN}/favicon.svg" />
-      <link rel="apple-touch-icon" href="${DOMAIN}/assets/icons/196.png" />
+      <link rel="icon" href="${DOMAIN}/assets/icons/small.svg" />
+      <link rel="apple-touch-icon" href="${DOMAIN}/assets/icons/big.svg" />
   
       <title>${title}</title>
       <meta name="description" content="${meta.description.long}">
@@ -69,7 +69,7 @@ module.exports = function (meta) {
       <meta property="og:type" content="website" />
       <meta property="og:title" content="${title}">
       <meta property="og:description" content="${description}">
-      <meta property="og:image" content="${DOMAIN}/assets/icons/256.png">
+      <meta property="og:image" content="${DOMAIN}/assets/icons/big.svg">
       <meta property="og:url" content="${link}">
       <meta property="og:locale" content="${meta.language}">
       <meta property="og:video" content="${DOMAIN}/assets/images/index.webm">
@@ -78,12 +78,12 @@ module.exports = function (meta) {
       <meta name="twitter:title" content="${title}">
       <meta name="twitter:description" content="${description}">
       <meta name="twitter:creator" content="Bakhirev Aleksei">
-      <meta name="twitter:image:src" content="${DOMAIN}/assets/icons/256.png">
+      <meta name="twitter:image:src" content="${DOMAIN}/assets/icons/big.svg">
       <meta name="twitter:domain" content="bakhirev.github.io">
 
       <meta itemprop="name" content="${title}">
       <meta itemprop="description" content="${description}">
-      <meta itemprop="image" content="${DOMAIN}/assets/icons/256.png">
+      <meta itemprop="image" content="${DOMAIN}/assets/icons/big.svg">
 
       <link href="%CSS_PATH%/assets/css/${cssName}.css?v=${VERSION}" rel="stylesheet">
     </head>`;

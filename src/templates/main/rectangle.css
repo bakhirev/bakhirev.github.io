@@ -18,3 +18,8 @@
     margin-bottom: 50px;
     transform: rotateX(180deg) rotateY(180deg);
 }
+
+.rectangle_bottom_left {
+    margin-bottom: 50px;
+    transform: rotateX(180deg);
+}

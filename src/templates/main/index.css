@@ -28,6 +28,11 @@ body {
 
     display: block;
     width: 100%;
-    height: 705px;
+}
+
+.background_item {
+    display: block;
+    width: 100%;
+    height: 605px;
     background-color: #3758F9;
 }

@@ -8,7 +8,7 @@ module.exports = function(t) {
       ${Description(t("main.description"))}
       <nav class="main_nav">
         ${Button(t("main.demo"), "/demo/")}
-        ${Button(t("main.demoWithData"), LINKS.DEMO, "button_blue")}
+        ${Button(t("main.demoWithData"), LINKS.DEMO, "button_green")}
       </nav>
       <video width="90%" preload autoplay muted loop="loop" class="main_screenshot">
         <source src="../assets/images/index.webm" type="video/webm">
