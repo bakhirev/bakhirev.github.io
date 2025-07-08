@@ -1,6 +1,6 @@
 § meta.template: main
 § meta.language: pt
-§ meta.title: Assayo - visualização e análise do log git
+§ meta.title.long: Assayo - visualização e análise do log git
 § meta.description.short: Análise baseada em commit do Git para aumentar a produtividade da equipa de programadores.
 § meta.description.long: Informações privilegiadas do git log, permitindo-lhe tomar decisões com base no cenário completo. Verifique o trabalho da equipa de desenvolvimento: relatório de trabalho por dias, cronograma real e composição dos releases, prazo de entrega, composição da equipa, etc.
 § meta.keywords: git, log, stat, estatístico, repositório, commits, bitbucket, gitlab, jira, analytics, auditoria, it-audit, git, log, repositório, estatísticas, análise, código, auditoria

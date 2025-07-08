@@ -1,7 +1,8 @@
 § meta.template: main
 § meta.language: ru
-§ meta.title: Assayo - визуализация и анализ git log
-§ meta.description.short: Посмотри историю разработки на основании информации из git
+§ meta.title.long: Assayo - визуализация и анализ git log
+§ meta.title.short: Создаёт HTML-отчёт с анализом статистики коммитов
+§ meta.description.short: Информация из git log. Ачивки, мини игры и забавные факты.
 § meta.description.long: Проверь работу команды разработки: табель работ по дням, фактический график и состав релизов, время поставки, состав команды и т.п.
 § meta.keywords: git, log, stat, statistic, repository, commits, bitbucket, gitlab, tool, jira, analytics, audit, it-audit, гит, лог, репозиторий, статистика, анализ, код, аудит
 § header.demo: Демо

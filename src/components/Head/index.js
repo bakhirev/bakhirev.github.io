@@ -30,6 +30,7 @@ function getAlternate(meta, link) {
 
 module.exports = function (meta) {
   const title = meta.title;
+  const ogTitle = meta.title.short || meta.title.long || meta.title;
   const description = meta.description.short;
   const keywords = meta.keywords;
   const link = getLink(meta);
@@ -67,23 +68,23 @@ module.exports = function (meta) {
       <meta name="msapplication-tooltip" content="${description}">
   
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="${title}">
+      <meta property="og:title" content="${ogTitle}">
       <meta property="og:description" content="${description}">
-      <meta property="og:image" content="${DOMAIN}/assets/icons/big.svg">
+      <meta property="og:image" content="${DOMAIN}/assets/icons/1200x630.png">
       <meta property="og:url" content="${link}">
       <meta property="og:locale" content="${meta.language}">
       <meta property="og:video" content="${DOMAIN}/assets/images/index.webm">
 
       <meta name="twitter:card" content="summary">
-      <meta name="twitter:title" content="${title}">
+      <meta name="twitter:title" content="${ogTitle}">
       <meta name="twitter:description" content="${description}">
       <meta name="twitter:creator" content="Bakhirev Aleksei">
-      <meta name="twitter:image:src" content="${DOMAIN}/assets/icons/big.svg">
+      <meta name="twitter:image:src" content="${DOMAIN}/assets/icons/1200x630.png">
       <meta name="twitter:domain" content="bakhirev.github.io">
 
       <meta itemprop="name" content="${title}">
       <meta itemprop="description" content="${description}">
-      <meta itemprop="image" content="${DOMAIN}/assets/icons/big.svg">
+      <meta itemprop="image" content="${DOMAIN}/assets/icons/1200x630.png">
 
       <link href="%CSS_PATH%/assets/css/${cssName}.css?v=${VERSION}" rel="stylesheet">
     </head>`;

@@ -50,7 +50,10 @@ class BlockLikeCode {
 
 function getSEO() {
   return {
-    title: '',
+    title: {
+      short: '',
+      long: '',
+    },
     template: '',
     description: {
       short: '',
@@ -101,7 +104,10 @@ function getJsonFromMarkdown(markdownText) {
     if (pre.update(code, line, json)) return;
 
     if (code === '>') json.push({ warning: content });
-    else if (code === '[title]:#') seo.title = removeQuotationMarks(content);
+    else if (code === '[title]:#') {
+      seo.title.long = removeQuotationMarks(content);
+      seo.title.short = removeQuotationMarks(content);
+    }
     else if (code === '[short]:#') seo.description.short = removeQuotationMarks(content);
     else if (code === '[long]:#') seo.description.long = removeQuotationMarks(content);
     else if (code === '[tags]:#') seo.keywords = removeQuotationMarks(content);

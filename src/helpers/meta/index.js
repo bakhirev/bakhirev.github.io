@@ -18,7 +18,8 @@ module.exports = class Meta {
 
     const description = attributes.description || {};
     const firstTitle = article.find(tag => tag.tag === 'h1');
-    const title = attributes.title || firstTitle?.content || '';
+    const title = attributes.title || {};
+    const titleLong = title?.long || title?.short || firstTitle?.content || '';
     const recommendations = attributes.recommendations || [];
 
     const index = PAGE_ORDER.indexOf(infoFromPath.id);
@@ -29,11 +30,14 @@ module.exports = class Meta {
     return {
       ...infoFromPath,
       ...attributes,
-      title,
+      title: {
+        short: title?.short || title?.long || firstTitle?.content || '',
+        long: titleLong,
+      },
       template: attributes.template || 'article',
       description: {
-        short: description?.short || description?.long || title || '',
-        long: description?.long || description?.short || title || '',
+        short: description?.short || description?.long || titleLong,
+        long: description?.long || description?.short || titleLong,
       },
       prev,
       next,
