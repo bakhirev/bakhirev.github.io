@@ -19,7 +19,7 @@ function getSeoFromJson(json) {
     template: json['meta.template'],
     language: json['meta.language'],
     description: {
-      short: json['meta.description.long'],
+      short: json['meta.description.short'],
       long: json['meta.description.long'],
     },
     keywords: json['meta.keywords'],
