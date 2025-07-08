@@ -29,8 +29,8 @@ function getAlternate(meta, link) {
 }
 
 module.exports = function (meta) {
-  const title = meta.title;
-  const ogTitle = meta.title.short || meta.title.long || meta.title;
+  const title = meta.title.long;
+  const ogTitle = meta.title.short || meta.title.long || meta.description.short;
   const description = meta.description.short;
   const keywords = meta.keywords;
   const link = getLink(meta);

@@ -13,7 +13,7 @@ function parse(text, refKeyValue = {}) {
 function getSeoFromJson(json) {
   return {
     title: {
-      short: json['meta.title.long'],
+      short: json['meta.title.short'],
       long: json['meta.title.long'],
     },
     template: json['meta.template'],
