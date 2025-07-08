@@ -1,8 +1,9 @@
 § meta.template: main
 § meta.language: fr
 § meta.title.long: Assayo - visualisation et analyse du git log
-§ meta.description.short: Analyses basées sur Git commit pour augmenter la productivité de l'équipe de développeurs.
+§ meta.title.short: Crée un rapport HTML avec analyse des statistiques de validation
 § meta.description.long: Informations privilégiées du git log, vous permettant de prendre des décisions en fonction de l'image complète. Vérifiez le travail de l'équipe de développement: rapport de travail par jour, calendrier réel et composition des versions, délai de livraison, composition de l'équipe, etc.
+§ meta.description.short: Informations privilégiées du git log. Réalisations, mini-jeux et faits amusants.
 § meta.keywords: git, log, stat, statistique, référentiel, validations, bitbucket, gitlab, tool, jira, analytique,audit, informatique-audit, git, log, référentiel, statistiques, analyse, code, audit
 § header.demo: Démo
 § header.blog: Blogue

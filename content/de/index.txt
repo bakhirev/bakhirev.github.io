@@ -1,8 +1,9 @@
 § meta.template: main
 § meta.language: de
 § meta.title.long: Assayo - Visualisierung und analyse des git-protokolls
-§ meta.description.short: Git-commit-basierte analysen zur steigerung der produktivität von entwicklerteams.
+§ meta.title.short: Erstellt einen HTML-bericht mit analyse der commit-statistiken.
 § meta.description.long: Insiderinformationen aus dem git log, mit denen sie entscheidungen basierend auf dem gesamtbild treffen können. Überprüfen sie die arbeit des entwicklungsteams: Arbeitstagebericht, aktueller zeitplan und zusammensetzung der releases, lieferzeit, teamzusammensetzung usw.
+§ meta.description.short: Informationen aus dem git log. Erfolge, minispiele und lustige fakten.
 § meta.keywords: git, statistik, statistisches repository, commits, bitbucket, gitlab, jira, analytik, audit, IT-audit, git, log, repository, statistic, analyse, code, audit
 § header.demo: Demo
 § header.blog: Blog

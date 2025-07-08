@@ -1,8 +1,9 @@
 § meta.template: main
 § meta.language: ja
 § meta.title.long: Assayo - gitログの可視化と分析
-§ meta.description.short: Gitコミットベースの分析により、開発者チームの生産性が向上します。
+§ meta.title.short: コミット統計の分析を含むHTMLレポートを作成します。
 § meta.description.long: Git logからのインサイダー情報により、全体像に基づいて意思決定を行うことができます。 開発チームの作業を確認してください：日ごとの作業レポート、実際のスケジュールとリリースの構成、納期、チーム構成など。
+§ meta.description.short: Gitログからのインサイダー情報。 成果、ミニゲームと楽しい事実。
 § meta.keywords: git, log, stat, statistical, repository, commits, bitbucket, gitlab, tool, jira, analytics, audit, it-audit, git, log, repository, statistics, analysis, code, audit
 § header.demo: デモ
 § header.blog: ブログ

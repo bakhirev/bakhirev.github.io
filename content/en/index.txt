@@ -1,8 +1,8 @@
 § meta.template: main
 § meta.language: en
 § meta.title.long:  Assayo - visualization and analysis of git log
-§ meta.description.long: Insider Information from git log, allowing you to make decisions based on the full picture. Check the work of the development team: work by days report, actual schedule and composition of releases, delivery time, team composition, etc.
 § meta.title.short: Creates an HTML-report with analysis of commit statistics
+§ meta.description.long: Insider Information from git log, allowing you to make decisions based on the full picture. Check the work of the development team: work by days report, actual schedule and composition of releases, delivery time, team composition, etc.
 § meta.description.short: Insider information from git log. Achievements, mini-games and fun facts.
 § meta.keywords: git, log, stat, statistical, repository, commits, bitbucket, gitlab, tool, jira, analytics, audit, it-audit, git, log, repository, statistics, analysis, code, audit
 § header.demo: Demo
