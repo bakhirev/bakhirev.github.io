@@ -29,13 +29,13 @@
 обработка группы репозиториев
 витрина отчётов по орг. структуре
 брендирование интерфейса
-§ banner.title: Пишите свой дашборд?
+§ banner.title: Пишете свой дашборд?
 § banner.description: Assayo легко интегрировать и брендировать<br>Полностью Российское ПО
 § banner.buy: Оставить заявку
 § banner.example: Посмотреть примеры
 § console.title: Генерируйте отчёты локально
 § console.description: Установите Docker образ или модули на JS, PHP, Python, Ruby, Go
-§ consultation.title: Пишите свой дашборд?
+§ consultation.title: Пишете свой дашборд?
 § consultation.description: Запишитесь на персональную консультацию<br/>по анализу данных, метрикам и дашбордам
 § consultation.youtube: Посмотреть видео
 § consultation.form: Записаться на консультацию
